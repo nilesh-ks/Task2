@@ -1,0 +1,141 @@
+
+@font-face {
+        font-family: 'Trebuchet MS';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Trebuchet MS'), url('trebuc.woff') format('woff');
+        }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#4A6BAE ;
+    font-size: 14px;
+    font-weight: normal;
+    line-height:21px;
+    /* letter-spacing: 0.5pc; */
+}
+.mainContainer{
+    /* height: 1200px;
+    width: 92.5vw;
+    margin: auto;
+    background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center; */
+
+    /* background-repeat: no-repeat; */
+
+    padding-bottom: 10px;
+    background: #4A6BAE url("images/bg1.jpg") no-repeat top center;
+    min-height: 800px;
+    
+}
+#divContainer{
+    width: 957px;
+    margin: auto;
+    position: relative;
+    text-align: left;
+}
+.clear{
+    clear: both;
+}
+.univNav{
+    float: right;
+    height: 20px;
+    width: 373px;
+    margin-bottom: 30px;
+    padding: 2px;
+    font-weight: normal;
+    text-align: right;
+    background-color:#0000000a;
+
+}
+#NavBar
+{
+    background-color: rgb(5, 18, 32, 0.8);
+    color: #fff;
+    height: 58px;
+    padding: 5px;
+    font-family: 'Trebuchet MS';
+}
+
+#TopNav{
+    height: 56px;
+    width: 946px;
+    border: 1px solid #414D5F;
+}
+
+#MenuBar{
+    float: right;
+    margin-top: 14px;
+    padding: 4px;
+}
+
+li.button{
+    float: left;
+    list-style-type: none;
+}
+ul.items li a{
+    text-decoration: none;
+    color: #9dcce9;
+    font-size: 18px;
+    
+}
+
+ul.items li a .txtMenu{
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+
+
+div{
+    display: block;
+}
+.logo{
+    float: left;
+    left: 15px;
+    position: absolute;
+    top: 10px;
+    width: 224px;
+}
+.banner{
+    height:170px !important;
+}
+.desc{
+    background-color: rgb(5, 18, 32, 0.8);
+    /* background:transparent url("images/nav_bg.png") scroll left top;
+    background-repeat: repeat-y repeat-x; */
+    min-height: 500px;
+    padding: 5px;
+}
+
+.gridContent {
+    display: grid;
+    
+    grid-template-columns: auto auto auto;
+    /* background-color: rgb(47, 58, 69, 0.8); */
+    border: 1px solid #414D5F;
+    padding: 10px;
+  } 
+
+.gridContent .image{
+    
+    max-height: 121px;
+    max-width: 279px;
+}
+
+.gridContent .textView{
+    max-width: 279px;
+    color:#d9dcdf;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+}
+
+
+
+
+
+
